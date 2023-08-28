@@ -17,6 +17,7 @@ public class FactorialTest {
         //when
         Long actual = factorial.factorial(7);
 
+
         //then
         Assert.assertEquals(expected, actual);
     }
